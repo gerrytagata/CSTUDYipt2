@@ -34,3 +34,22 @@ header{
     flex-direction: column;
     align-items: center;
 }
+
+
+#songs{
+ display: grid;
+grid-template-columns: repeat(3,1fr);
+
+grid-template-rows: repeat(1fr);
+
+text-align: center;
+
+}
+
+
+.song{
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+
